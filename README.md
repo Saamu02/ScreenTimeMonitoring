@@ -2,15 +2,16 @@
 
 Reference Links:
 https://www.folio3.com/mobile/blog/screentime-api-ios/
+
 https://crunchybagel.com/monitoring-app-usage-using-the-screen-time-api/
 
 Apple released the ScreenTime API for iOS. Although the ScreenTime feature has been there since the release of iOS 13, from iOS 15, Apple has introduced ScreenTime API for developers to allow them to develop apps for their user base with customized UI for an enhanced experience for parental controls. It mostly provides features for parental controls such as allowing parents to add restrictions to apps and websites to their child’s device, enabling parents to set time limits on their child’s usage of the device, and sharing usage of the child’s device with parents.
 
 ScreenTime API comprises 3 frameworks:
 
-# Managed Settings
-# Family Controls
-# Device Activity
+Managed Settings
+Family Controls
+Device Activity
 
 # Managed Settings Framework:
 - Shield apps and websites with custom UI
