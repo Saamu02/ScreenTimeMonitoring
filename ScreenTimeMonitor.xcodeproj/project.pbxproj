@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040A07212A24D1D900830742 /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A07202A24D1D900830742 /* DataPersistence.swift */; };
+		040A07222A24D26900830742 /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A07202A24D1D900830742 /* DataPersistence.swift */; };
+		04AFC1832A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC1822A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift */; };
+		04AFC1842A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC1822A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift */; };
+		04F6B3982A2753C300F17262 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6B3972A2753C200F17262 /* PublicVariables.swift */; };
+		04F6B3992A2753C300F17262 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6B3972A2753C200F17262 /* PublicVariables.swift */; };
+		18045E1D2A2366EC00C4262C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18045E1C2A2366EC00C4262C /* Constants.swift */; };
+		18045E1E2A2366EC00C4262C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18045E1C2A2366EC00C4262C /* Constants.swift */; };
+		18635B692A229EA00026A9BF /* RestrictionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFF70A2A223C18004363C5 /* RestrictionUIView.swift */; };
+		18635B6A2A229EA40026A9BF /* TimeLimitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFF7082A223B30004363C5 /* TimeLimitModel.swift */; };
+		18635B6C2A229EAC0026A9BF /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFF6FB2A21F790004363C5 /* DeviceActivityMonitorExtension.swift */; };
+		18BFF6F92A21F790004363C5 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BFF6F82A21F790004363C5 /* DeviceActivity.framework */; };
+		18BFF6FC2A21F790004363C5 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFF6FB2A21F790004363C5 /* DeviceActivityMonitorExtension.swift */; };
+		18BFF7012A21F790004363C5 /* DeviceMonitorExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18BFF6F62A21F790004363C5 /* DeviceMonitorExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18BFF7092A223B30004363C5 /* TimeLimitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFF7082A223B30004363C5 /* TimeLimitModel.swift */; };
+		18BFF70C2A223C5D004363C5 /* RestrictionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFF70A2A223C18004363C5 /* RestrictionUIView.swift */; };
+		18E790BC2A21F4C200616B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E790BB2A21F4C200616B55 /* AppDelegate.swift */; };
+		18E790BE2A21F4C200616B55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E790BD2A21F4C200616B55 /* SceneDelegate.swift */; };
+		18E790C02A21F4C200616B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E790BF2A21F4C200616B55 /* ViewController.swift */; };
+		18E790C32A21F4C200616B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E790C12A21F4C200616B55 /* Main.storyboard */; };
+		18E790C82A21F4C400616B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E790C72A21F4C400616B55 /* Assets.xcassets */; };
+		18E790CB2A21F4C400616B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E790C92A21F4C400616B55 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BFF6FF2A21F790004363C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E790B02A21F4C200616B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BFF6F52A21F790004363C5;
+			remoteInfo = DeviceMonitorExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18BFF7022A21F790004363C5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18BFF7012A21F790004363C5 /* DeviceMonitorExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		040A07202A24D1D900830742 /* DataPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistence.swift; sourceTree = "<group>"; };
+		04AFC1822A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedSettingsStoreHelper.swift; sourceTree = "<group>"; };
+		04F6B3972A2753C200F17262 /* PublicVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PublicVariables.swift; path = ../../quizlr_flutter/ios/QuizlrTimeLimitExtension/PublicVariables.swift; sourceTree = "<group>"; };
+		18045E1C2A2366EC00C4262C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18BFF6F62A21F790004363C5 /* DeviceMonitorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeviceMonitorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BFF6F82A21F790004363C5 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		18BFF6FB2A21F790004363C5 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		18BFF6FD2A21F790004363C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BFF6FE2A21F790004363C5 /* DeviceMonitorExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeviceMonitorExtension.entitlements; sourceTree = "<group>"; };
+		18BFF7082A223B30004363C5 /* TimeLimitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLimitModel.swift; sourceTree = "<group>"; };
+		18BFF70A2A223C18004363C5 /* RestrictionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionUIView.swift; sourceTree = "<group>"; };
+		18BFF70D2A223F96004363C5 /* ScreenTimeMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenTimeMonitor.entitlements; sourceTree = "<group>"; };
+		18E790B82A21F4C200616B55 /* ScreenTimeMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTimeMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E790BB2A21F4C200616B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E790BD2A21F4C200616B55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E790BF2A21F4C200616B55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E790C22A21F4C200616B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E790C72A21F4C400616B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E790CA2A21F4C400616B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E790CC2A21F4C400616B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BFF6F32A21F790004363C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BFF6F92A21F790004363C5 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E790B52A21F4C200616B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BFF6F72A21F790004363C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BFF6F82A21F790004363C5 /* DeviceActivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18BFF6FA2A21F790004363C5 /* DeviceMonitorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18BFF70A2A223C18004363C5 /* RestrictionUIView.swift */,
+				18BFF6FB2A21F790004363C5 /* DeviceActivityMonitorExtension.swift */,
+				18BFF6FD2A21F790004363C5 /* Info.plist */,
+				04AFC1822A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift */,
+				18BFF6FE2A21F790004363C5 /* DeviceMonitorExtension.entitlements */,
+				04F6B3972A2753C200F17262 /* PublicVariables.swift */,
+				18BFF7082A223B30004363C5 /* TimeLimitModel.swift */,
+				040A07202A24D1D900830742 /* DataPersistence.swift */,
+			);
+			path = DeviceMonitorExtension;
+			sourceTree = "<group>";
+		};
+		18E790AF2A21F4C200616B55 = {
+			isa = PBXGroup;
+			children = (
+				18E790BA2A21F4C200616B55 /* ScreenTimeMonitor */,
+				18BFF6FA2A21F790004363C5 /* DeviceMonitorExtension */,
+				18BFF6F72A21F790004363C5 /* Frameworks */,
+				18E790B92A21F4C200616B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E790B92A21F4C200616B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E790B82A21F4C200616B55 /* ScreenTimeMonitor.app */,
+				18BFF6F62A21F790004363C5 /* DeviceMonitorExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E790BA2A21F4C200616B55 /* ScreenTimeMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				18BFF70D2A223F96004363C5 /* ScreenTimeMonitor.entitlements */,
+				18E790BB2A21F4C200616B55 /* AppDelegate.swift */,
+				18E790BD2A21F4C200616B55 /* SceneDelegate.swift */,
+				18E790BF2A21F4C200616B55 /* ViewController.swift */,
+				18E790C12A21F4C200616B55 /* Main.storyboard */,
+				18E790C72A21F4C400616B55 /* Assets.xcassets */,
+				18E790C92A21F4C400616B55 /* LaunchScreen.storyboard */,
+				18E790CC2A21F4C400616B55 /* Info.plist */,
+				18045E1C2A2366EC00C4262C /* Constants.swift */,
+			);
+			path = ScreenTimeMonitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BFF6F52A21F790004363C5 /* DeviceMonitorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BFF7052A21F790004363C5 /* Build configuration list for PBXNativeTarget "DeviceMonitorExtension" */;
+			buildPhases = (
+				18BFF6F22A21F790004363C5 /* Sources */,
+				18BFF6F32A21F790004363C5 /* Frameworks */,
+				18BFF6F42A21F790004363C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceMonitorExtension;
+			productName = DeviceMonitorExtension;
+			productReference = 18BFF6F62A21F790004363C5 /* DeviceMonitorExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		18E790B72A21F4C200616B55 /* ScreenTimeMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E790E52A21F4C400616B55 /* Build configuration list for PBXNativeTarget "ScreenTimeMonitor" */;
+			buildPhases = (
+				18E790B42A21F4C200616B55 /* Sources */,
+				18E790B52A21F4C200616B55 /* Frameworks */,
+				18E790B62A21F4C200616B55 /* Resources */,
+				18BFF7022A21F790004363C5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BFF7002A21F790004363C5 /* PBXTargetDependency */,
+			);
+			name = ScreenTimeMonitor;
+			productName = ScreenTimeMonitor;
+			productReference = 18E790B82A21F4C200616B55 /* ScreenTimeMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E790B02A21F4C200616B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					18BFF6F52A21F790004363C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					18E790B72A21F4C200616B55 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18E790B32A21F4C200616B55 /* Build configuration list for PBXProject "ScreenTimeMonitor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E790AF2A21F4C200616B55;
+			productRefGroup = 18E790B92A21F4C200616B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E790B72A21F4C200616B55 /* ScreenTimeMonitor */,
+				18BFF6F52A21F790004363C5 /* DeviceMonitorExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BFF6F42A21F790004363C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E790B62A21F4C200616B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E790CB2A21F4C400616B55 /* LaunchScreen.storyboard in Resources */,
+				18E790C82A21F4C400616B55 /* Assets.xcassets in Resources */,
+				18E790C32A21F4C200616B55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BFF6F22A21F790004363C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F6B3992A2753C300F17262 /* PublicVariables.swift in Sources */,
+				18045E1E2A2366EC00C4262C /* Constants.swift in Sources */,
+				18BFF6FC2A21F790004363C5 /* DeviceActivityMonitorExtension.swift in Sources */,
+				18BFF70C2A223C5D004363C5 /* RestrictionUIView.swift in Sources */,
+				04AFC1842A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift in Sources */,
+				040A07212A24D1D900830742 /* DataPersistence.swift in Sources */,
+				18BFF7092A223B30004363C5 /* TimeLimitModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E790B42A21F4C200616B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18635B6C2A229EAC0026A9BF /* DeviceActivityMonitorExtension.swift in Sources */,
+				18635B692A229EA00026A9BF /* RestrictionUIView.swift in Sources */,
+				040A07222A24D26900830742 /* DataPersistence.swift in Sources */,
+				04AFC1832A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift in Sources */,
+				18635B6A2A229EA40026A9BF /* TimeLimitModel.swift in Sources */,
+				18E790C02A21F4C200616B55 /* ViewController.swift in Sources */,
+				18E790BC2A21F4C200616B55 /* AppDelegate.swift in Sources */,
+				18E790BE2A21F4C200616B55 /* SceneDelegate.swift in Sources */,
+				18045E1D2A2366EC00C4262C /* Constants.swift in Sources */,
+				04F6B3982A2753C300F17262 /* PublicVariables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BFF7002A21F790004363C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BFF6F52A21F790004363C5 /* DeviceMonitorExtension */;
+			targetProxy = 18BFF6FF2A21F790004363C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E790C12A21F4C200616B55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E790C22A21F4C200616B55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E790C92A21F4C400616B55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E790CA2A21F4C400616B55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BFF7032A21F790004363C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeviceMonitorExtension/DeviceMonitorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeviceMonitorExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeviceMonitorExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codesorbit.build.ScreenTimeMonitor.DeviceMonitorExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BFF7042A21F790004363C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeviceMonitorExtension/DeviceMonitorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeviceMonitorExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeviceMonitorExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codesorbit.build.ScreenTimeMonitor.DeviceMonitorExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E790E32A21F4C400616B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E790E42A21F4C400616B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E790E62A21F4C400616B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeMonitor/ScreenTimeMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenTimeMonitor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codesorbit.build.ScreenTimeMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E790E72A21F4C400616B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeMonitor/ScreenTimeMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenTimeMonitor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codesorbit.build.ScreenTimeMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BFF7052A21F790004363C5 /* Build configuration list for PBXNativeTarget "DeviceMonitorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BFF7032A21F790004363C5 /* Debug */,
+				18BFF7042A21F790004363C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E790B32A21F4C200616B55 /* Build configuration list for PBXProject "ScreenTimeMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E790E32A21F4C400616B55 /* Debug */,
+				18E790E42A21F4C400616B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E790E52A21F4C400616B55 /* Build configuration list for PBXNativeTarget "ScreenTimeMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E790E62A21F4C400616B55 /* Debug */,
+				18E790E72A21F4C400616B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E790B02A21F4C200616B55 /* Project object */;
+}
