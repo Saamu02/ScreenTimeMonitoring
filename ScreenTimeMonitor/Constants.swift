@@ -10,6 +10,5 @@ import Foundation
 struct ScreenTimeConstant {
     static let EventName = "ScreenTimeMonitor.SetTimeLimitCal"
     static let ActivityName = "ScreenTimeMonitor.SetTimeLimitAcitivty"
-
 }
 

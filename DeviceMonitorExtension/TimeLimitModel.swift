@@ -38,27 +38,28 @@ class TimeLimitModel: ObservableObject {
     }
 
     func initiateMonitoring() {
-        DataPersistence.shared.saveMonitoringState(isMonitoring: true)
-        ManagedSettingsStoreHelper.shared.stopApplicationsShielding()
-        center.stopMonitoring()
-
-        selectionToDiscourage = DataPersistence.shared.savedGroupSelection() ?? FamilyActivitySelection()
-
-        let dateC = DateComponents(second: PublicVariable.timeLimit)
-        
-        let event = DeviceActivityEvent(
-            applications: selectionToDiscourage.applicationTokens,
-            categories: selectionToDiscourage.categoryTokens,
-            webDomains: selectionToDiscourage.webDomainTokens,
-            threshold: dateC
-        )
-        
-        do {
-            try center.startMonitoring(activity, during: schedule, events: [eventName:event])
-            
-        } catch {
-            print ("Could not start monitoring \(error)")
-        }
+        ManagedSettingsStoreHelper.shared.startApplicationsShielding()
+//        DataPersistence.shared.saveMonitoringState(isMonitoring: true)
+//        ManagedSettingsStoreHelper.shared.stopApplicationsShielding()
+//        center.stopMonitoring()
+//
+//        selectionToDiscourage = DataPersistence.shared.savedGroupSelection() ?? FamilyActivitySelection()
+//
+//        let dateC = DateComponents(hour: PublicVariable.timeLimit)
+//        
+//        let event = DeviceActivityEvent(
+//            applications: selectionToDiscourage.applicationTokens,
+//            categories: selectionToDiscourage.categoryTokens,
+//            webDomains: selectionToDiscourage.webDomainTokens,
+//            threshold: dateC
+//        )
+//        
+//        do {
+//            try center.startMonitoring(activity, during: schedule, events: [eventName:event])
+//            
+//        } catch {
+//            print ("Could not start monitoring \(error)")
+//        }
     }
     
     func stopMonitoring() {

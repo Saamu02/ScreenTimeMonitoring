@@ -8,5 +8,5 @@
 import Foundation
 
 struct PublicVariable {
-    public static var timeLimit = 0
+    public static var timeLimit = 1
 }

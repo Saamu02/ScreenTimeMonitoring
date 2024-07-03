@@ -28,9 +28,9 @@ struct ContentView: View {
                         .foregroundColor(Color(#colorLiteral(red: 0.7569770813, green: 0.7566842437, blue: 0.765483737, alpha: 1)))
                     
                 }
-                Toggle("Start Monitoring", isOn: $model.isMonitoring)
+                Toggle("Restrict App(s)", isOn: $model.isMonitoring)
                     .foregroundColor(Color(.systemBlue))
-                    .onChange(of: model.isMonitoring) { newValue in
+                    .onChange(of: model.isMonitoring, { oldValue, newValue in
                         model.isMonitoring = newValue
                         
                         if newValue {
@@ -39,7 +39,7 @@ struct ContentView: View {
                         } else {
                             model.stopMonitoring()
                         }
-                    }
+                    })
             }
         }
     }
