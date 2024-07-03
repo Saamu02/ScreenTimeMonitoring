@@ -11,8 +11,8 @@
 		040A07222A24D26900830742 /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A07202A24D1D900830742 /* DataPersistence.swift */; };
 		04AFC1832A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC1822A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift */; };
 		04AFC1842A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC1822A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift */; };
-		04F6B3982A2753C300F17262 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6B3972A2753C200F17262 /* PublicVariables.swift */; };
-		04F6B3992A2753C300F17262 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6B3972A2753C200F17262 /* PublicVariables.swift */; };
+		04C52C022C353B4C0028E752 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C012C353B4C0028E752 /* PublicVariables.swift */; };
+		04C52C032C353B4C0028E752 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C012C353B4C0028E752 /* PublicVariables.swift */; };
 		18045E1D2A2366EC00C4262C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18045E1C2A2366EC00C4262C /* Constants.swift */; };
 		18045E1E2A2366EC00C4262C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18045E1C2A2366EC00C4262C /* Constants.swift */; };
 		18635B692A229EA00026A9BF /* RestrictionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFF70A2A223C18004363C5 /* RestrictionUIView.swift */; };
@@ -58,7 +58,7 @@
 /* Begin PBXFileReference section */
 		040A07202A24D1D900830742 /* DataPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistence.swift; sourceTree = "<group>"; };
 		04AFC1822A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedSettingsStoreHelper.swift; sourceTree = "<group>"; };
-		04F6B3972A2753C200F17262 /* PublicVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PublicVariables.swift; path = ../../quizlr_flutter/ios/QuizlrTimeLimitExtension/PublicVariables.swift; sourceTree = "<group>"; };
+		04C52C012C353B4C0028E752 /* PublicVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicVariables.swift; sourceTree = "<group>"; };
 		18045E1C2A2366EC00C4262C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		18BFF6F62A21F790004363C5 /* DeviceMonitorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeviceMonitorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BFF6F82A21F790004363C5 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
@@ -113,7 +113,7 @@
 				18BFF6FD2A21F790004363C5 /* Info.plist */,
 				04AFC1822A2DB7A00089D5B4 /* ManagedSettingsStoreHelper.swift */,
 				18BFF6FE2A21F790004363C5 /* DeviceMonitorExtension.entitlements */,
-				04F6B3972A2753C200F17262 /* PublicVariables.swift */,
+				04C52C012C353B4C0028E752 /* PublicVariables.swift */,
 				18BFF7082A223B30004363C5 /* TimeLimitModel.swift */,
 				040A07202A24D1D900830742 /* DataPersistence.swift */,
 			);
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F6B3992A2753C300F17262 /* PublicVariables.swift in Sources */,
+				04C52C032C353B4C0028E752 /* PublicVariables.swift in Sources */,
 				18045E1E2A2366EC00C4262C /* Constants.swift in Sources */,
 				18BFF6FC2A21F790004363C5 /* DeviceActivityMonitorExtension.swift in Sources */,
 				18BFF70C2A223C5D004363C5 /* RestrictionUIView.swift in Sources */,
@@ -279,7 +279,7 @@
 				18E790BC2A21F4C200616B55 /* AppDelegate.swift in Sources */,
 				18E790BE2A21F4C200616B55 /* SceneDelegate.swift in Sources */,
 				18045E1D2A2366EC00C4262C /* Constants.swift in Sources */,
-				04F6B3982A2753C300F17262 /* PublicVariables.swift in Sources */,
+				04C52C022C353B4C0028E752 /* PublicVariables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
