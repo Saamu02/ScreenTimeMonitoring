@@ -1,5 +1,11 @@
 # ScreenTimeMonitoring
 
+An app to restrict the apps for childeren. You can have parental control in it.
+Right now I have set it to individual in app delegate
+You can set it to child at 
+AuthorizationCenter.shared.requestAuthorization(for: .individual) -> AuthorizationCenter.shared.requestAuthorizationa(for: .child)
+and child's credentials, then you can control the Apps.
+
 Reference Links:
 
 https://www.folio3.com/mobile/blog/screentime-api-ios/
