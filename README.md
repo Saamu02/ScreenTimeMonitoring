@@ -6,6 +6,12 @@ You can set it to child at
 AuthorizationCenter.shared.requestAuthorization(for: .individual) -> AuthorizationCenter.shared.requestAuthorizationa(for: .child)
 and child's credentials, then you can control the Apps.
 
+Video:
+
+https://github.com/Saamu02/ScreenTimeMonitoring/assets/126147404/ae1805fe-9708-497d-bae6-cd496c9e74f5
+
+
+
 Reference Links:
 
 https://www.folio3.com/mobile/blog/screentime-api-ios/
